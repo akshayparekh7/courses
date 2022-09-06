@@ -1,8 +1,8 @@
 *Requisite* 
 
-    *Ruby version -> 3.1.2 *
+    * Ruby version -> 3.1.2
 
-    *Rails version 7.0.3.1*
+    * Rails version 7.0.3.1
     
 ----------------------
 
