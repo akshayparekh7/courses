@@ -2,8 +2,32 @@ Endpoint for POST course will be ->>>>>>> http://localhost:3000/api/courses
 
 Endpoint to GET the list of courses along with tutor will be ->>>>> http://localhost:3000/api/courses
 
-Rspec coverage can be found in the coverage folder under promobi_course_assignment folder
+Sample request for the post request
 
-Sample request for the post request has been attached with in this same directory.
+----------------------
 
 
+{
+    "course": {
+        "name": "Akshay",
+        "tutors_attributes": [
+            {
+                "name": "Test new",
+                "email": "ak1@gmail.com"
+            },
+            {
+                "name": "Test 2",
+                "email": "ak2@gmail.com"
+            },
+            {
+                "name": "Test 3",
+                "email": "ak3@gmail.com"
+            }
+        ]
+    }
+}
+
+
+-----------------------
+
+Run rspecs locally to generate the Coverage report.
